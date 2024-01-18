@@ -1,0 +1,54 @@
+.container {
+    background-image: url(../../../public/assests/images/cartoes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 300px;
+
+
+
+.boxInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 650px) {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+    .btn {
+        margin-top: 20px;
+        border: none;
+        background-color: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 15px;
+        background-color: var(--cor-primaria);
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: bold;
+        
+        &:hover {
+            background-color: crimson;
+        }
+    }
+}

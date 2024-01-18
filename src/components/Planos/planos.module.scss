@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img{
+        
+        max-height: 700px;
+
+        @media (max-width: 1050px) {
+            height: 500px;
+        }
+
+        @media (max-width: 768px){
+            height: 300px;
+        }
+
+        @media (max-width: 480px) {
+            height: 230px;
+        }
+    }
+}
+
+
